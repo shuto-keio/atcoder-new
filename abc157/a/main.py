@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+
+import math
+N = int(input())
+
+print(math.ceil(N/2))
