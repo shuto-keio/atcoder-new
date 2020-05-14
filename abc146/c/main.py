@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-import math
-
 a, b, x = list(map(int, input().split()))
 
 
