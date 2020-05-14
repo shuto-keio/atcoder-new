@@ -36,11 +36,11 @@ def lcm(x, y):
     return x*y//gcd(x, y)
 
 
-l = 1
+lcm_a = 1
 for i in a:
-    l = lcm(l, i)
+    lcm_a = lcm(lcm_a, i)
 for i in a:
-    if l//i % 2 == 0:
+    if lcm_a//i % 2 == 0:
         print(0)
         exit()
-print((m//l+1)//2)
+print((m//lcm_a+1)//2)
