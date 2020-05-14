@@ -38,4 +38,5 @@ cp ./config/python `acc config-dir`
 ```
 acc config default-task-choice all
 acc config default-template python
+acc config default-test-dirname-format test
 ```
