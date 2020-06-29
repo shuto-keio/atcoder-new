@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
+import sys
+sys.setrecursionlimit(10**6)
 
-a = int(input())
+n = int(input())
 a, b = list(map(int, input().split()))
-a = list(str(input()))
+s = list(str(input()))
