@@ -36,6 +36,26 @@ print(value)
 # [[1,2],[2,3],[3.4]]のようなリストの[i][1]を基準にソート¶
 value = sorted(value, key=lambda x: x[1])
 
+# 素因数分解
+```
+def prime_factorize(n):
+    a = []
+    while n % 2 == 0:
+        a.append(2)
+        n //= 2
+    f = 3
+    while f * f <= n:
+        if n % f == 0:
+            a.append(f)
+            n //= f
+        else:
+            f += 2
+    if n != 1:
+        a.append(n)
+    return a
+```
+
+
 # Python PyPyの比較
 https://qiita.com/OKCH3COOH/items/f0c5c4681bc30dddf7f4
 基本的に、リストの生成、再帰関数以外はPyPyの方が早い
