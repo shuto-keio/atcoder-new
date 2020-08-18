@@ -59,3 +59,6 @@ def prime_factorize(n):
 # Python PyPyの比較
 https://qiita.com/OKCH3COOH/items/f0c5c4681bc30dddf7f4
 基本的に、リストの生成、再帰関数以外はPyPyの方が早い
+
+# Union-Find
+https://note.nkmk.me/python-union-find/
