@@ -40,4 +40,4 @@ ans.append([abs(x/2-a[index]), a[index]])
 
 ans.sort()
 
-print(x, ans[0][1]
+print(x, ans[0][1])
