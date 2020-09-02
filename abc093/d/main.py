@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-import math
-
 q = int(input())
 ab = [list(map(int, input().split())) for i in range(q)]
 
