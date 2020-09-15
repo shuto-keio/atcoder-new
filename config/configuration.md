@@ -32,7 +32,7 @@ oj login https://atcoder.jp
 ```
 ## templateのcopy
 ```
-cp ./config/python `acc config-dir`
+sudo cp -r ./config/python `acc config-dir`
 ```
 ## config設定
 ```
