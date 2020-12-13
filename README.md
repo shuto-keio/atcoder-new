@@ -17,20 +17,15 @@ https://qiita.com/ell/items/fe52a9eb9499b7060ed6
 
 # 最大公約数
 ```
-import fractions
-value = A[0]
-for i in range(1, N):
-    value = fractions.gcd(value, A[i])
-print(value)
+from math import gcd
+gcd(a,b)
 ```
 
 # 最小公倍数
 ```
-import fractions
-value = A[0]
-for i in range(1, N):
-    value = value * A[i] // fractions.gcd(value, A[i])
-print(value)
+from math import gcd
+def lcm(a,b):
+    return a//gcd(a,b)*b
 ```
 
 # [[1,2],[2,3],[3.4]]のようなリストの[i][1]を基準にソート¶
@@ -66,3 +61,13 @@ https://note.nkmk.me/python-union-find/
 # 二部グラフの最大マッチング問題
 https://atcoder.jp/contests/abc091/tasks/arc092_a
 http://ina17.hatenablog.jp/entry/2017/11/29/184345
+
+# Segment Tree
+https://qiita.com/takayg1/items/c811bd07c21923d7ec69
+
+# Lazy Segment Tree
+https://qiita.com/takayg1/items/b7b3f7d458915bcc7a4e
+
+
+# 編集距離
+http://nw.tsuda.ac.jp/lec/EditDistance/
