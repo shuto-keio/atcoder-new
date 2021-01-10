@@ -1,0 +1,20 @@
+#!/bin/zsh
+
+if [ $# -ne 3 ]; then
+    echo The number of arguments must be three.
+    exit
+fi
+
+if [ "$3" = "t" ]; then
+    echo test
+    oj t -c "python3 ./$1/$2/main.py" -d ./$1/$2/test/
+elif [ "$3" = "s" ]; then
+    echo submit
+    cd ./$1/$2
+    acc s
+elif [ "$3" = "r" ]; then
+    echo run $1/$2/main.py
+    python $1/$2/main.py
+else
+    echo The second argument should be t, s, or r.
+fi

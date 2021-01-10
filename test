@@ -1,5 +1,0 @@
-#!/bin/zsh
-
-oj t -c "python3 ./$1/$2/main.py" -d ./$1/$2/test/
-
-
